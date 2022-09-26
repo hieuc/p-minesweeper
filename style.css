@@ -1,0 +1,259 @@
+.tile {
+    background-image: url("./assets/tile.png");
+}
+
+.flag {
+    background-image: url("./assets/flag.png");
+}
+
+.mine {
+    background-image: url("./assets/mine.png");
+}
+
+.caught {
+    background-image: url("./assets/mine-caught.png");
+}
+
+.false {
+    background-image: url("./assets/mine-false.png");
+}
+
+.question {
+    background-image: url("./assets/quest.png");
+}
+
+.tile-pressed, .o0 {
+    background-image: url("./assets/tile-pressed.png");
+}
+
+.o1 {
+    background-image: url("./assets/1.png");
+}
+
+.o2 {
+    background-image: url("./assets/2.png");
+}
+
+.o3 {
+    background-image: url("./assets/3.png");
+}
+
+.o4 {
+    background-image: url("./assets/4.png");
+}
+
+.o5 {
+    background-image: url("./assets/5.png");
+}
+
+.o6 {
+    background-image: url("./assets/6.png");
+}
+
+.o7 {
+    background-image: url("./assets/7.png");
+}
+
+.o8 {
+    background-image: url("./assets/8.png");
+}
+
+.smiley {
+    background-image: url("./assets/smiley.png");
+}
+
+.smiley-pressed {
+    background-image: url("./assets/smiley-pressed.png");
+}
+
+.observing {
+    background-image: url("./assets/smiley-observ.png");
+}
+
+.victory {
+    background-image: url("./assets/smiley-victory.png");
+}
+
+.defeat {
+    background-image: url("./assets/smiley-defeat.png");
+}
+
+.t0 {
+    background-image: url("./assets/t-0.png");
+}
+
+.t1 {
+    background-image: url("./assets/t-1.png");
+}
+
+.t2 {
+    background-image: url("./assets/t-2.png");
+}
+
+.t3 {
+    background-image: url("./assets/t-3.png");
+}
+
+.t4 {
+    background-image: url("./assets/t-4.png");
+}
+
+.t5 {
+    background-image: url("./assets/t-5.png");
+}
+
+.t6 {
+    background-image: url("./assets/t-6.png");
+}
+
+.t7 {
+    background-image: url("./assets/t-7.png");
+}
+
+.t8 {
+    background-image: url("./assets/t-8.png");
+}
+
+.t9 {
+    background-image: url("./assets/t-9.png");
+}
+
+.border-hor {
+    background-image: url("./assets/border-hor.png");
+    width: 16px;
+    height: 10px;
+}
+
+.border-ver {
+    background-image: url("./assets/border-ver.png");
+    width: 10px;
+    height: 16px;
+}
+
+.border-bl {
+    background-image: url("./assets/border-bl.png");
+}
+
+.border-br {
+    background-image: url("./assets/border-br.png");
+}
+
+.border-tl {
+    background-image: url("./assets/border-tl.png");
+}
+
+.border-tr {
+    background-image: url("./assets/border-tr.png");
+}
+
+.border-ml {
+    background-image: url("./assets/border-ml.png");
+}
+
+.border-mr {
+    background-image: url("./assets/border-mr.png");
+}
+
+.border-ver-long {
+    background-image: url("./assets/border-ver-long.png");
+    width: 10px;
+    height: 32px;
+}
+
+.board > * > * {
+    display: inline-block;
+    margin: 0;
+}
+
+.tile, .flag, .mine, .caught, .false, .question,
+ .o0, .o1, .o2, .o3, .o4, .o5, .o6, .o7, .o8 {
+    width: 16px;
+    height: 16px;
+}
+
+.t0, .t1, .t2, .t3, .t4, .t5, .t6, .t7, .t8, .t9 {
+    width: 13px;
+    height: 23px;
+    margin-bottom: 4px;
+}
+
+.smiley, .smiley-pressed, .defeat, .victory, .observing {
+    width: 26px;
+    height: 26px;
+    margin-bottom: 3px;
+}
+
+.border-bl, .border-br, .border-tl, .border-tr, .border-ml, .border-mr {
+    width: 10px; 
+    height: 10px;
+}
+
+.board {
+    background-color: lightgray;
+}
+
+.board-header, .field {
+    font-size: 0;
+}
+
+body {
+    background-color: azure;
+}
+
+figcaption {
+    color: gray;
+    font-style: italic;
+    margin: 5px;
+}
+
+#accordion {
+    margin-top: 20px;
+}
+
+.card-header > h5 > button {
+    font-weight: bold;
+}
+
+figure {
+    margin: 5px;
+    text-align: center;
+}
+
+.card {
+    background-color: #f6f6ff
+}
+
+#customize-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#customize-container button:hover {
+    background-color: bisque;
+}
+
+#actions {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 60px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+td {
+    text-align: center;
+}
